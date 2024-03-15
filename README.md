@@ -1,5 +1,7 @@
 # Set up your own home server with Nix
 
+This repo is from our NixCon NA 2024 presentation, which you can [view here](https://godsped.com/files/nixcon/slides.html).
+
 ## Install NixOS
 
 We won't be going over getting a base install setup in too much detail here. [The NixOS Wiki](https://nixos.wiki/wiki/NixOS_Installation_Guide) is a great guide for doing so. This is just the same as installing another Linux distribution from a bootable USB drive. You can download an [Graphical ISO image](https://nixos.org/download/#nixos-iso), [copy it onto a USB drive](https://nixos.org/manual/nixos/stable/#sec-booting-from-usb), boot into it from your computer's BIOS, and follow the graphical installer.
