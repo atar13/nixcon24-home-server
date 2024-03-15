@@ -1,0 +1,4 @@
+{
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.exportType": "html"
+}
