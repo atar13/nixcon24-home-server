@@ -238,6 +238,85 @@ Today we will be discussing how Nix allows you to fearless modify your home serv
 
 
 </div>
+
+<p class="break"></p>
+
+<div style="width:40%; margin-left:100px" class="">
+
+<!-- ![](./img/dash.png) -->
+
+
+<div class="crossed-out-image">
+  <img src="img/icloud.png">
+</div>
+
+<div class="crossed-out-image">
+  <img src="img/google_photos.png">
+</div>
+
+</div>
+</div>
+
+<!-- 
+A home server enables you to host your own services on hardware you own. 
+
+You can host your own photo backups instead of relying on services like Google Photos and iCloud. In addition, you can host a media server, serve your own website and back up your files. You can find self-hosted services for anything you can imagine.
+-->
+
+---
+
+<style scoped>
+.container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+/* Cross out the logos */
+.crossed-out-image {
+  position: relative;
+  display: inline-block;
+}
+
+.crossed-out-image::before,
+.crossed-out-image::after {
+  content: '';
+  position: absolute;
+  width: calc(50% * 1.414); /* Diagonal length of the image */
+  height: 4px;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  z-index: 1;
+}
+
+.crossed-out-image::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.crossed-out-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  z-index: -100;
+}
+</style>
+
+<div class="twocols container">
+<div class="">
+
+# What is a home server?
+
+- Host your own services
+    - Photo Backup
+    - Media Library
+    - Website Hosting
+    - Backups
+
+
+</div>
 <img style="width:20%; position:absolute; top:70%; left: 0%"src="img/tim.png">
 
 <p class="break"></p>
