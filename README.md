@@ -1,6 +1,6 @@
 # Set up your own home server with Nix
 
-This repo is from our NixCon NA 2024 presentation. **[View the presentation here](https://godsped.com/files/nixcon/slides.html)**.
+This repo is from our NixCon NA 2024 presentation. **[View the presentation here](https://godsped.com/files/nixcon/slides.html)** or [download](/slides.pdf) the pdf. *Talk recording is coming soon*.
 
 You can use the instructions below to follow along and make your own home server. Feel free to file an issue or email nixcon@godsped.com.
 
