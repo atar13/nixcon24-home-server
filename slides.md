@@ -7,7 +7,7 @@ math: mathjax
 header: '<img src="img/logo.png" width=10% align=right style="margin:0% 2%">'
 # backgroundImage: "linear-gradient(to bottom, #67b8e3, #0288d1)"
 paginate: true
-transition: fade 
+# transition: fade 
 ---
 <style>
 /* Global style */
@@ -221,7 +221,7 @@ Today we will be discussing how Nix allows you to fearless modify your home serv
   max-width: 100%;
   height: auto;
   position: relative;
-  z-index: -100;
+  /* z-index: -100; */
 }
 </style>
 
@@ -300,7 +300,7 @@ You can host your own photo backups instead of relying on services like Google P
   max-width: 100%;
   height: auto;
   position: relative;
-  z-index: -100;
+  /* z-index: -100; */
 }
 </style>
 
@@ -322,8 +322,6 @@ You can host your own photo backups instead of relying on services like Google P
 <p class="break"></p>
 
 <div style="width:40%; margin-left:100px" class="">
-
-<!-- ![](./img/dash.png) -->
 
 
 <div class="crossed-out-image">

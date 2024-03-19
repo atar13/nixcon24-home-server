@@ -1,6 +1,8 @@
 # Set up your own home server with Nix
 
-This repo is from our NixCon NA 2024 presentation, which you can [view here](https://godsped.com/files/nixcon/slides.html).
+This repo is from our NixCon NA 2024 presentation. **[View the presentation here](https://godsped.com/files/nixcon/slides.html)**.
+
+You can use the instructions below to follow along and make your own home server. Feel free to file an issue or email nixcon@godsped.com.
 
 ## Install NixOS
 
@@ -36,6 +38,8 @@ If for whatever reason you corrupted or deletd this file, you can regenerate it 
 
 # Slides
 
+The source code of the slides is in `slides.md`. This compiles to the `slides.html` using `marp`. The HTML has speaker notes, or you can use `./utils/create_script.sh` to generate a `script.html` that you can print out.
+
 ## nix-shell
 
 If you have Nix installed, enter our Nix shell with the `marp-cli` package installed by running `nix-shell`.
@@ -45,6 +49,12 @@ Then run `make` to generate a `slides.html` file.
 ## Marp VSCode Extension
 
 Install VSCode with the [Marp extension](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode). Open `slides.md` in VSCode and run  "Marp: Export Slide Deck" in the VSCode command pallete (View -> Command Pallete). You can also click the marp preview on the top right of the text window.
+
+## License
+
+CC BY-NC-SA 4.0
+Attribution-NonCommercial-ShareAlike 4.0 International
+http://creativecommons.org/licenses/by-nc-sa/4.0/
 
 ## Acknowledgements
 
